@@ -1,0 +1,17 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    grid-template-rows: repeat(6, 100px);
+    gap: 16px;
+    grid-template-areas: 
+    "head head head head head head"   
+     "side side cont cont cont cont";
+}
+
+.header{
+    grid-area: head;
+}
+
+.grid-container div{
+    background-color: orange;
+}
