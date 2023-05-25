@@ -14,18 +14,18 @@
 
 .header{
     grid-area: head;
+    background-color: red;
 }
 
 .sidebar{
     grid-area: side;
+    background-color: yellow;
 }
 .content{
     grid-area: content;
+    background-color: green;
 }
 .footer{
     grid-area: foot;
-}
-
-.grid-container div{
     background-color: orange;
 }
