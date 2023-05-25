@@ -5,10 +5,10 @@
     gap: 16px;
     grid-template-areas: 
     "head head head head head head"   
-     "side side content content content content"
-     "side side content content content content"
-     "side side content content content content"
-     "side side content content content content"
+     "side . content content content content"
+     "side . content content content content"
+     "side . content content content content"
+     "side . content content content content"
      "foot foot foot foot foot foot";
 }
 
